@@ -1,0 +1,70 @@
+// includes all tags for paragraphs and titles such as header, p, span
+.par p { padding:10px 0px; }
+.par2 p { padding:5px 0px; }
+.par-small { font-size: $fontSmall; }
+.par-medium { @include responsive-font-size (12px, 14px, 768px, 1200px, 0px); }
+.par-large { @include responsive-font-size (13px, 16px, 768px, 1200px, 0px); }
+.par-xlarge { @include responsive-font-size (14px, 18px, 768px, 1200px, 0px); }
+.par-xxlarge { @include responsive-font-size (16px, 20px, 768px, 1200px, 0px); }
+.par-max { @include responsive-font-size (20px, 24px, 768px, 1200px, 0px); }
+
+// :root {
+// font-size: 16px;
+// }
+
+// Font Variables
+$font10   :   	0.625rem;
+$font11   :   	0.6875rem;
+$font12   :    	0.75rem;
+$font13   : 	  0.8125rem;
+$font14   : 		0.875rem;
+$font15   : 		0.9375rem;
+$font16   : 		1rem;
+$font17   : 		1.0625rem;
+$font18   : 		1.125rem;
+$font19   : 		1.1875rem;
+$font20   : 		1.25rem;
+$font21   : 		1.3125rem;
+$font22   : 		1.375rem;
+$font23   : 		1.4375rem;
+$font24   : 		1.5rem;
+$font25   : 		1.5625rem;
+$font26   : 		1.625rem;
+$font27   : 		1.6875rem;
+$font28   : 		1.75rem;
+$font29   : 		1.8125rem;
+$font30   : 		1.875rem;
+$font31   : 		1.9375rem;
+$font32   : 		2rem;
+$font33   : 		2.0625rem;
+$font34   : 		2.125rem;
+$font35   :   	2.1875rem;
+$font36   : 		2.25rem;
+$font37   : 		2.3125rem;
+$font38   :   	2.375rem;
+$font39   : 		2.4375rem;
+$font40   : 		2.5rem;
+$font41   : 	  2.5625rem;
+$font42   :   	2.625rem;
+$font43   :   	2.6875rem;
+$font44   : 		2.75rem;
+$font45   : 		2.8125rem;
+$font46   : 		2.875rem;
+$font47   :   	2.9375rem;
+$font48   : 		3rem;
+$font49   : 		3.0625rem;
+$font50   : 	  3.125rem;
+$font51   : 		3.1875rem;
+$font52   : 		3.25rem;
+$font53   : 		3.3125rem;
+$font54   : 	  3.375rem;
+$font55   :   	3.4375rem;
+$font56   : 		3.5rem;
+$font57   : 		3.5625rem;
+$font58   : 		3.625rem;
+$font59   : 		3.6875rem;
+$font60   : 		3.75rem;
+$font61   : 		3.8125rem;
+$font62   :   	3.875rem;
+$font63   : 		3.9375rem;
+$font64   : 		4rem;

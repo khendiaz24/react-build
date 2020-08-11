@@ -1,0 +1,38 @@
+// this is area is for reserved class
+#main-container { 
+  width: 100%;
+  min-height: 100%;
+	position: relative;
+	flex-direction: column;
+  display: flex;
+  z-index: 1;
+
+}
+
+main {
+  flex-direction: column;
+  position: relative;
+  flex: 1 1 auto;
+  z-index: 1;
+}
+
+.hide { position:relative; }
+.ease,a,input[type="submit"],button { @include transition(all 0.5s ease); }
+.ease2 { @include transition(all 0.3s ease); }
+.loader { position:relative; overflow:hidden; }
+.auto { max-width:$maxWidth; margin-left: auto; margin-right: auto; }
+.img-auto { width: 100%; height: auto; }
+
+.zx1 { z-index: 1; }
+.zx2 { z-index: 2; }
+.zx3 { z-index: 3; }
+.zx4 { z-index: 4; }
+.zx5 { z-index: 5; }
+.zx6 { z-index: 6; }
+.overflow { overflow: hidden; }
+.pl-0 { padding-left: 0; }
+.pr-0 { padding-right: 0; }
+
+// this is area is for reserved class
+
+// you can include here the rest of your class name eg. home page
