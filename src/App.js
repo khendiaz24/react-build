@@ -14,6 +14,7 @@ function App() {
       <div className="App">
         <Header/>
         <main className="main">
+          <Route exact path="/" component={Home}/>
           <Route exact path="/react-build" component={Home}/>
         </main>
         <Footer/>
